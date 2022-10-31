@@ -1,0 +1,52 @@
+
+.btn{
+  margin: 0 auto;
+    border:1px solid #D37506;
+    background-color: white;
+    color: #9F2B00; 
+    font-weight :bold;
+    margin-left: 37%;  
+}
+
+.btn:hover{
+  background-color: #9F2B00;
+  color: white;
+}
+
+
+#us-map{
+  display: block;
+  position: absolute;
+  top: 100;
+  width: 80%;
+  height: 80%;
+}
+path:hover, circle:hover {
+  stroke: #ffffff !important;
+  stroke-width:2px;
+  stroke-linejoin: round;
+  fill: #9F2B00!important;
+  cursor: pointer;
+}
+
+.form1{
+  background-color: #e0e0d5;
+}
+
+.mypopup{
+  display: block;
+  position: absolute;
+  top: 1000px;
+  left: 900px;
+  z-index: 1;
+  background-color: #D3D3CB;
+  border: 2px solid #9F2B00;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: arial;
+}
+
+.center_div{
+  margin: 0 auto;
+  width:50% ;
+}
