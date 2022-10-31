@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 
 
-const baseUrl = 'https://weather-crime-backend.herokuapp.com/';
+const baseUrl = 'https://weather-crime-backend.herokuapp.com';
 // const TOKEN_KEY = 'access_token';
 
 var headers_object = new HttpHeaders();
