@@ -83,7 +83,7 @@ export class ContentComponent implements OnInit {
     else if (2 <= prediction && prediction < 3) {
       return '#F09867';
     }
-    else if (4 <= prediction && prediction < 5) {
+    else if (3 <= prediction && prediction < 5) {
       return '#F0B083';
     }
     else if (5 <= prediction && prediction < 6) {
